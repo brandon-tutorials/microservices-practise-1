@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-servicio-kafka" />
+        <module name="springboot-service-gateway-server" />
+        <module name="springboot-servicio-zuul-server" />
+        <module name="springboot-servicio-productos" />
+        <module name="springboot-servicio-eureka-server" />
+        <module name="springboot-servicio-item-1" />
+        <module name="springboot-service-commons" />
+        <module name="springboot-servicio-item-2" />
+        <module name="springboot-service-config-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kakfa-service" target="11" />
+      <module name="springboot-servicio-item-1 (1)" target="11" />
+      <module name="springboot-servicio-item-1 (2)" target="11" />
+      <module name="springboot-servicio-item-2 (1)" target="11" />
+      <module name="springboot-servicio-item-2 (2)" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kakfa-service" options="-parameters" />
+      <module name="springboot-service-commons" options="-parameters" />
+      <module name="springboot-service-config-server" options="-parameters" />
+      <module name="springboot-service-gateway-server" options="-parameters" />
+      <module name="springboot-servicio-eureka-server" options="-parameters" />
+      <module name="springboot-servicio-item-1" options="-parameters" />
+      <module name="springboot-servicio-item-1 (1)" options="-parameters" />
+      <module name="springboot-servicio-item-1 (2)" options="-parameters" />
+      <module name="springboot-servicio-item-2" options="-parameters" />
+      <module name="springboot-servicio-item-2 (1)" options="-parameters" />
+      <module name="springboot-servicio-item-2 (2)" options="-parameters" />
+      <module name="springboot-servicio-kafka" options="-parameters" />
+      <module name="springboot-servicio-productos" options="-parameters" />
+      <module name="springboot-servicio-zuul-server" options="-parameters" />
+    </option>
+  </component>
+</project>
